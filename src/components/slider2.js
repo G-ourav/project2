@@ -57,7 +57,7 @@ function Slider2() {
       <div
         // style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         // className="w-full h-full  rounded-2xl bg-center bg-cover duration-500"
-        className=" flex  flex-col items-center justify-center gap-4"
+        className=" flex  flex-col overflow-hidden items-center justify-center gap-4"
       >
         {/* <h4 className="absolute m-10  text-5xl font-black transition-all duration-500 ease-in-out transform scale-100 text-gray-900  hover:scale-75">
           {slides[currentIndex].title}

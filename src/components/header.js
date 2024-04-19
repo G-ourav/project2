@@ -3,8 +3,8 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const Header = () => {
   return (
-    <div className=" sm:flex sm:pt-10">
-      <div className="  sm:pt-20 sm:text-left text-center  gap-2 sm:flex flex-col">
+    <div className=" md:flex md:pt-10">
+      <div className="  md:pt-20 md:text-left text-center  gap-2 md:flex flex-col">
         <p className=" font-semibold pt-4   text-2xl">Kickstart Your </p>
         <p className=" text-5xl flex py-6 font-bold text-blue-900">
           IIT JEE/NEET Test Prep,
@@ -13,13 +13,13 @@ const Header = () => {
           <p className=" text-lg  font-bold text-blue-900">Powered by</p>
           <img src="../img/pace-logo-png-1_1.png" />
         </div>
-        <div className="sm:grid hidden   grid-cols-2">
+        <div className="md:grid hidden   grid-cols-2">
           <p className=" text-xl flex  items-center justify-center  font-bold ">
             Admissions Open
           </p>
           <div
             onClick={() => (window.location = "mailto:i")}
-            className=" rounded-full flex  justify-between items-center  text-white  font-bold sm:text-sm text-lg p-4 bg-blue-950"
+            className=" rounded-full flex  justify-between items-center  text-white  font-bold md:text-sm text-lg p-4 bg-blue-950"
           >
             Enquire Now
             <div className=" bg-yellow-400 rounded-full p-1">
